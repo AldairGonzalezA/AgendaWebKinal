@@ -1,5 +1,11 @@
+body{
+    background: linear-gradient(#17242D,#2D3E48);
+}
+
 .div-body{
+    height: 100%;
     display: flex;
+    padding: 1px;
 }
 
 .div-contactos{
@@ -7,7 +13,7 @@
     display: block;
     top: 100px;
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 
@@ -35,4 +41,47 @@
 
 .cuenta{
     display: block;
+}
+
+.botones{
+    width: 30%;
+    display: block;
+    position: relative;
+    top: 100px;
+}
+
+.btns{
+    width: 70%;
+    height: 100px;
+    margin: 20px;
+    text-align: center;
+}
+
+.icons{
+    height: 90%;
+    width: 90%;
+}
+
+.cards{
+    background: linear-gradient(#8D928E,#C6C8BD);
+}
+
+.contacs{
+    background: linear-gradient(#C6C8BD,#E1E1D9);
+}
+
+.perfil{
+    width: 100%;
+    height: 100%;
+    border: 0px solid;
+}
+
+.barra{
+    height: 80px;
+    border: 0px;
+}
+
+.navbar-brand{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
 }
