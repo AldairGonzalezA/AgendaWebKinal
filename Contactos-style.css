@@ -1,4 +1,38 @@
+.div-body{
+    display: flex;
+}
+
+.div-contactos{
+    position: relative;
+    display: block;
+    top: 100px;
+    width: 100%;
+    height: auto;
+}
+
+
+.card{
+    left: 15%;
+    overflow: hidden;
+
+}
+
+.img-fluid{
+    max-height: 150px;
+    max-width: 150px;
+    padding: 20px;
+    padding-right: 10px;
+    border-radius: 90px;
+    overflow: hidden;
+}
+
 .img-perfil{
+    position: relative;
     width: 70%;
     height: auto;
+    left: 20%;
+}
+
+.cuenta{
+    display: block;
 }
