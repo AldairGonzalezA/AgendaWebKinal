@@ -34,3 +34,16 @@ body{
 .input-group{
     padding: 10px;
 }
+
+.btn-regresar{
+    text-decoration: none;
+    text-align: center;
+    width: 10%;
+    height: 50px;
+    border : 2px solid;
+    border-color: aliceblue;
+    border-radius: 10px;
+    margin: 30px;
+    background-color: white;
+    color: black;
+}
