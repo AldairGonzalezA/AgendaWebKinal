@@ -1,6 +1,9 @@
 body{
     background: linear-gradient(#17242D,#2D3E48);
-    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .div-body{
@@ -83,3 +86,29 @@ body{
     top: 100px;
 }
 
+.info-label{
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #E1E1D9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #555;
+    word-wrap: break-word;
+}
+
+.info-container{
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+h2{
+    margin-bottom: 10px;
+    color: #333;
+}

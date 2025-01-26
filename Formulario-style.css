@@ -35,15 +35,43 @@ body{
     padding: 10px;
 }
 
-.btn-regresar{
-    text-decoration: none;
-    text-align: center;
-    width: 10%;
-    height: 50px;
-    border : 2px solid;
-    border-color: aliceblue;
-    border-radius: 10px;
-    margin: 30px;
-    background-color: white;
-    color: black;
+.regresar{
+    display: inline-block;     
+    margin: 30px;     
+    padding: 10px 20px;            
+    background-color: #E1E1D9;     
+    color: #000000;                
+    text-decoration: none;         
+    font-size: 16px;               
+    font-weight: bold;             
+    border-radius: 8px;            
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+    transition: all 0.3s ease;   
+}
+
+.info-label{
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #E1E1D9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #555;
+    word-wrap: break-word;
+}
+
+.info-container{
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+h2{
+    margin-bottom: 10px;
+    color: #333;
 }
