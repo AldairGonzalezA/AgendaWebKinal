@@ -4,12 +4,16 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    margin: 0;
+    padding: 0;
 }
 
 .div-body{
-    display: flex;
     height: 100%;
+    display: flex;
+    flex-wrap: wrap;
     padding: 1px;
+    align-items: center;
 }
 
 .perfil{
@@ -18,14 +22,18 @@ body{
     border: 0px solid;
 }
 
+
 .barra{
     height: 80px;
     border: 0px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
 }
 
 .navbar-brand{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .img-perfil{
@@ -53,9 +61,10 @@ body{
 }
 
 .card{
-    left: 15%;
+    margin: 20px auto;
     overflow: hidden;
-
+    max-width: 700px;
+    width: 90%;
 }
 
 .cards{
@@ -68,7 +77,8 @@ body{
 
 .regresar{
     display: inline-block;          
-    padding: 10px 20px;            
+    padding: 10px 20px;       
+    margin: 30px;     
     background-color: #E1E1D9;     
     color: #000000;                
     text-decoration: none;         
@@ -88,20 +98,20 @@ body{
 
 .info-label{
     display: block;
-    margin-bottom: 20px;
-    padding: 10px;
+    margin-bottom: 10px;
+    padding: 8px;
     background-color: #E1E1D9;
     border: 1px solid #ddd;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 14px;
     color: #555;
     word-wrap: break-word;
 }
 
 .info-container{
-    max-width: 400px;
+    max-width: 90%;
     margin: 20px auto;
-    padding: 20px;
+    padding: 10px;
     background: #f9f9f9;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -111,4 +121,72 @@ body{
 h2{
     margin-bottom: 10px;
     color: #333;
+    font-size: 18px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .div-body {
+        flex-direction: column; 
+    }
+
+    .card {
+        width: 100%; 
+        max-width: none;
+    }
+
+    .img-fluid {
+        max-height: 120px;
+        max-width: 120px;
+    }
+
+    .img-perfil {
+        max-width: 150px; 
+    }
+
+    .navbar-brand {
+        font-size: 24px; 
+    }
+
+    h2 {
+        font-size: 16px; 
+    }
+
+    .info-label {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar-brand {
+        font-size: 20px; 
+    }
+
+    .img-fluid {
+        max-height: 100px;
+        max-width: 100px;
+    }
+
+    .img-perfil {
+        max-width: 120px;
+    }
+
+    .contacts{
+        width: 100%;
+        font-size: 14px;
+        overflow: visible;
+    }
+
+    .info-container {
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+
+    .regresar {
+        font-size: 12px;
+        padding: 8px 10px;
+    }
 }
